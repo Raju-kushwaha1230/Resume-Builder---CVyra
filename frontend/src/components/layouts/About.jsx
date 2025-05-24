@@ -22,7 +22,7 @@ const About = () => {
                                 <p class="text-sm text-gray-500">Founder & Developer</p>
                             </div>
                             <div class="text-center flex flex-col items-center">
-                                <img src={} class="w-50 h-50 rounded-full border-2 border-cyan-300 object-scale-down mb-2" alt="img" />
+                                <img src="/profile" class="w-50 h-50 rounded-full border-2 border-cyan-300 object-scale-down mb-2" alt="img" />
                                 <p class="font-medium text-gray-700">Vaishnavi</p>
                                 <p class="text-sm text-gray-500">UI/UX Designer</p>
                             </div>
