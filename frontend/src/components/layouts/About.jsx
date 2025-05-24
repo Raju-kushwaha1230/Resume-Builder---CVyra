@@ -15,7 +15,7 @@ const About = () => {
                       <div class="text-center mb-12">
                         <h2 class="text-2xl font-semibold text-gray-800 mb-4">Meet the Team</h2>
                         <p class="text-gray-600 mb-6">We're a small team passionate about helping people succeed.</p>
-                        <div class="grid grid-cols-1 md:grid-cols-2 lg:w-[50%] sm:w-full mx-auto  items-center gap-4">
+                        <div class="grid grid-cols-1  lg:w-[50%] sm:w-full mx-auto  items-center gap-4">
                             <div class="text-center flex flex-col items-center">
                                 <img src={profilrpic} class="w-50 h-50 rounded-full border-2 border-cyan-300 mb-2" alt="" />
                                 <p class="font-medium text-gray-700">Raju Kushwaha</p>
