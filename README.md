@@ -12,7 +12,7 @@ A dynamic and modern Resume Builder application built using the **MERN** stack:
 
 ## 🔗 Live Demo
 
-🌐  [https://your-frontend.vercel.app](https://c-vyra.vercel.app/)  
+🌐  [https://c-vyra.vercel.app/](https://c-vyra.vercel.app/)  
 
 
 ---
