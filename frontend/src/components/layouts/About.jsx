@@ -17,14 +17,14 @@ const About = () => {
                         <p class="text-gray-600 mb-6">We're a small team passionate about helping people succeed.</p>
                         <div class="grid grid-cols-1 md:grid-cols-2 lg:w-[50%] sm:w-full mx-auto  items-center gap-4">
                             <div class="text-center flex flex-col items-center">
-                                <img src={profilrpic} class="w-50 h-50 rounded-full mb-2" alt="John" />
+                                <img src={profilrpic} class="w-50 h-50 rounded-full border-2 border-cyan-300 mb-2" alt="" />
                                 <p class="font-medium text-gray-700">Raju Kushwaha</p>
                                 <p class="text-sm text-gray-500">Founder & Developer</p>
                             </div>
                             <div class="text-center flex flex-col items-center">
-                                <img src={head} class="w-50 h-50 rounded-full object-scale-down mb-2" alt="John" />
+                                <img src={} class="w-50 h-50 rounded-full border-2 border-cyan-300 object-scale-down mb-2" alt="img" />
                                 <p class="font-medium text-gray-700">Vaishnavi</p>
-                                <p class="text-sm text-gray-500">Marketing Head and UI/UX Designer</p>
+                                <p class="text-sm text-gray-500">UI/UX Designer</p>
                             </div>
 
                         </div>
