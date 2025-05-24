@@ -95,6 +95,13 @@ const TemplateOne = ({ resumeData, colorPalette, containerWidth }) => {
                                 vlaue={ resumeData.contactInfo.linkedin }
                                 
                                 />
+                                { resumeData.contactInfo.website && 
+                                <ContactInfo
+                                icon={ <LuRss /> }
+                                iconBg={themeColor[2]}
+                                vlaue={ resumeData.contactInfo.website }
+                                
+                                />
                                 }
 
                             </div>
