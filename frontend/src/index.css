@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'MyCustomFont';
+  src: url('/fonts/MyFont.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  font-family: 'MyCustomFont', sans-serif;
+}
