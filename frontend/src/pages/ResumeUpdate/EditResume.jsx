@@ -460,7 +460,7 @@ const EditResume = () => {
     const fetchResumeDetailsById = async () => {
         try {
             const response = await axiosInstance.get(API_PATH.RESUME.GET_BY_ID(resumeId))
-            console.log(response.data);
+             
             if (response.data && response.data.profileInfo) {
                 const resumeInfo = response.data;
                 setresumeData((prevState) => ({
@@ -504,7 +504,7 @@ const EditResume = () => {
             }
             const formData = new FormData()
 
-            console.log(profileImageFIle);
+            
 
             // if (profileImageFIle instanceof File) {
             //     const cloudFormData = new FormData();
@@ -531,7 +531,7 @@ const EditResume = () => {
             })
 
             const { thumbnailLink, profilePreviewUrl } = uploadResponse.data;
-            console.log("Resume data", resumeData);
+        
             // Update local state with new URLs
             setresumeData((prev) => ({
                 ...prev,
@@ -544,7 +544,7 @@ const EditResume = () => {
             }));
 
             await updateResumeDetails(thumbnailLink, profilePreviewUrl )
-            console.log(profilePreviewUrl);
+ 
             toast.success("Resume Updated successfully")
             navigate("/dashboard")
 
@@ -656,7 +656,7 @@ const EditResume = () => {
     useEffect(() => {
         updateBaseWidth()
         window.addEventListener("resize", updateBaseWidth)
-        console.log(resumeId);
+       
 
         if (resumeId) {
             fetchResumeDetailsById()
