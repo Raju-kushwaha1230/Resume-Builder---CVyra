@@ -21,7 +21,7 @@ const UserCard = () => {
             <img className='h-14 w-14 rounded-full object-cover '      src={user.profileImageUrl}  />
         </div>
         <div className='flex flex-col items-center'> 
-        <div className='text-xl min-w-[40px] font-semibold font-sans  text-blue-600 hover:cursor-pointer hover:text-blue-800'>
+        <div className='text-xl min-w-[14%] flex item-center justify-center font-semibold font-sans  text-blue-600 hover:cursor-pointer hover:text-blue-800'>
             @{user.name || ""} 
             
         </div>
