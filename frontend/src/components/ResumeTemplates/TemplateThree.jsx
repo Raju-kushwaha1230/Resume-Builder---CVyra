@@ -96,6 +96,15 @@ const TemplateThree = ({ resumeData, colorPalette, containerWidth }) => {
 
               />
             }
+            
+             {resumeData.contactInfo.website &&
+              <ContactInfo
+                icon={<LuRss />}
+                iconBg={themeColor[2]}
+                vlaue={resumeData.contactInfo.website}
+
+              />
+            }
 
           </div>
 
